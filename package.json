@@ -26,5 +26,8 @@
     "monaco-editor": "^0.8.3",
     "puppeteer": "^1.18.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "phaser": "^3.20.0",
+    "save": "^2.4.0"
+  }
 }
