@@ -19,12 +19,15 @@ function preload ()
 
 function create ()
 {
-    var blocks = this.add.group({ key: 'block', repeat: 107, setScale: { x: 0.3, y: 0.3 } });
+    //var blocks = this.add.group({ key: 'block', repeat: 107, setScale: { x: 1.0, y: 1.0 } });
+    var blocks = new Phaser.GameObjects.Group(this,{key:'block',repeat:107,setScale:{x:1.0,y:1.0}});
+    console.log(blocks);
+    this.add.existing(blocks);
 
     Phaser.Actions.GridAlign(blocks.getChildren(), {
-        width: 12,
-        height: 10,
-        cellWidth: 60,
+        width: 12,   
+        height: 10,     
+        cellWidth: 60,  
         cellHeight: 60,
         x: 70,
         y: 60
@@ -38,8 +41,8 @@ function create ()
 
         _this.tweens.add({
             targets: child,
-            scaleX: 1,
-            scaleY: 1,
+            scaleX: 0.3,
+            scaleY: 0.3,
             ease: 'Sine.easeInOut',
             duration: 300,
             delay: i * 50,

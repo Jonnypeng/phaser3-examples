@@ -69,7 +69,6 @@ function create ()
         });
     }
 }
-
 function update ()
 {
     graphics.clear();

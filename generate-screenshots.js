@@ -5,7 +5,7 @@ const p = require('path');
 
 
 var server = httpServer.createServer();
-server.listen(8080, 'localhost', () => {});
+server.listen(8082, 'localhost', () => {});
 
 let examples = [];
 const getExamples = (path, depth = 0) => {
@@ -54,7 +54,7 @@ getExamples('./public/src');
 examples = examples
   .filter(e => !e.url.includes('rbush'))
   .filter(e => e.url.match(/[^\.]+$/)[0].slice(0,2) === 'js')
-  .map(e => ({ url: e.url = 'http://localhost:8080/' + (e.url.includes('boot.json') ? 'boot.html?src=' : 'view.html?src=') + e.url.slice(9).replace(/\//g, '\\'), path: e.path.toLowerCase().replace(/src/, 'screenshots').replace(/\.json/, '').replace(/\.js/, '') + '.png' }));
+  .map(e => ({ url: e.url = 'http://localhost:8082/' + (e.url.includes('boot.json') ? 'boot.html?src=' : 'view.html?src=') + e.url.slice(9).replace(/\//g, '\\'), path: e.path.toLowerCase().replace(/src/, 'screenshots').replace(/\.json/, '').replace(/\.js/, '') + '.png' }));
 
 getScreenshots('./public/screenshots');
 screenshots = screenshots
