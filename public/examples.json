@@ -182,6 +182,12 @@
           "extension": ".js"
         },
         {
+          "path": "src/animation/angelAction.js",
+          "name": "angelAction.js",
+          "size": 0,
+          "extension": ".js"
+        },
+        {
           "path": "src/animation/animation data.js",
           "name": "animation data.js",
           "size": 1998,
