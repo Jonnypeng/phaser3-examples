@@ -179,12 +179,15 @@
           "path": "src/animation/all frames texture atlas animation.js",
           "name": "all frames texture atlas animation.js",
           "size": 550,
+<<<<<<< HEAD
           "extension": ".js"
         },
         {
           "path": "src/animation/angelAction.js",
           "name": "angelAction.js",
           "size": 1175,
+=======
+>>>>>>> master
           "extension": ".js"
         },
         {
@@ -398,7 +401,11 @@
           "extension": ".js"
         }
       ],
+<<<<<<< HEAD
       "size": 44468
+=======
+      "size": 43293
+>>>>>>> master
     },
     {
       "path": "src/archived",
@@ -9275,12 +9282,15 @@
           "name": "curves",
           "children": [
             {
+<<<<<<< HEAD
               "path": "src/paths/curves/QuadraticBezier.js",
               "name": "QuadraticBezier.js",
               "size": 1414,
               "extension": ".js"
             },
             {
+=======
+>>>>>>> master
               "path": "src/paths/curves/cubic bezier bounds.js",
               "name": "cubic bezier bounds.js",
               "size": 3028,
@@ -9437,7 +9447,7 @@
               "extension": ".js"
             }
           ],
-          "size": 51155
+          "size": 49741
         },
         {
           "path": "src/paths/followers",
@@ -9594,11 +9604,19 @@
         {
           "path": "src/paths/zig zag path.js",
           "name": "zig zag path.js",
+<<<<<<< HEAD
           "size": 1720,
           "extension": ".js"
         }
       ],
       "size": 81157
+=======
+          "size": 1721,
+          "extension": ".js"
+        }
+      ],
+      "size": 79744
+>>>>>>> master
     },
     {
       "path": "src/physics",
@@ -12036,13 +12054,21 @@
         {
           "path": "src/tweens/callbacks.js",
           "name": "callbacks.js",
+<<<<<<< HEAD
           "size": 1178,
+=======
+          "size": 1279,
+>>>>>>> master
           "extension": ".js"
         },
         {
           "path": "src/tweens/checkerboard 2.js",
           "name": "checkerboard 2.js",
+<<<<<<< HEAD
           "size": 1251,
+=======
+          "size": 1078,
+>>>>>>> master
           "extension": ".js"
         },
         {
@@ -12479,7 +12505,11 @@
           "extension": ".js"
         }
       ],
+<<<<<<< HEAD
       "size": 86856
+=======
+      "size": 86784
+>>>>>>> master
     },
     {
       "path": "src/utils",
