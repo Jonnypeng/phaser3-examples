@@ -27,7 +27,7 @@
     "puppeteer": "^1.18.1"
   },
   "dependencies": {
-    "phaser": "^3.20.0",
+    "phaser": "^3.55.2",
     "save": "^2.4.0"
   }
 }
